@@ -1,12 +1,50 @@
+.container{
+    position: relative;
+    align-items: center;
 
-/* 
+}
+.stem{
+    height: 28vh;
+    width:2vw;
+    background: black;
+    margin: auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.lights{
+    height: 480px;
+    width: 15vw;
+    background: black;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
 
-*/
+.light{
+    height: 120px;
+    width:120px;
+    position:relative;
+    display: flex;
+    margin: 30px auto auto auto;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+
+    background-color: yellow;
+
+}
+
+.green{
+    background-color: green;
+}
+
+.glow{
+    box-shadow: 0 0 20px 20px rgb(255, 252, 88);
+}
