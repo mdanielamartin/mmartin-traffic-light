@@ -48,3 +48,35 @@
 .glow{
     box-shadow: 0 0 20px 20px rgb(255, 252, 88);
 }
+
+.cycleButtons{
+    position: fixed;
+    top:28vh;
+    left: 60px;
+}
+
+.cycleStart{
+    font-size: 20px;
+    background-color: green;
+    border-radius: 20px;
+    padding:15px 10px;
+    color: white;
+}
+
+.cycleStart:hover{
+    background-color: gray;
+}
+
+
+.cycleStop{
+    font-size: 20px;
+    background-color: red;
+    border-radius: 20px;
+    padding:15px 10px;
+    color: white;
+    margin-left:10px;
+}
+
+.cycleStop:hover{
+    background-color: gray;
+}
